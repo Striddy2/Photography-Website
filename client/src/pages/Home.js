@@ -1,13 +1,13 @@
-import './App.css';
+import './Home.css';
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        
+        <h1>AYO</h1>
       </header>
     </div>
   );
 }
 
-export default App;
+export default Home;
