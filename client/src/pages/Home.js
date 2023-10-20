@@ -1,11 +1,20 @@
 import './Home.css';
+import photo from './photos/Home screen camera.jpg'
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1></h1>
+    <div className="app">
+      <div className='home-photo'>
+        <img src={photo} alt="" className='fade-img'></img>
+      </div>
+      <header className="app-header">
+        <h2>Welcome To</h2>
+        <h1>EPhotography</h1>
+        <h3>By Erika Rogers</h3>
       </header>
+      <body className='body'>
+        <h2>Shortly About Me</h2>
+      </body>
     </div>
   );
 }

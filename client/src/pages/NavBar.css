@@ -7,13 +7,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    min-height: 100vh;
-    background: url('https://cdn.wallpapersafari.com/3/23/Zl42fs.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .header {
     position: fixed;
     top: 0;
