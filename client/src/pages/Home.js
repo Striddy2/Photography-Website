@@ -1,5 +1,5 @@
 import './Home.css';
-import photo from './photos/Home screen camera.jpg'
+import photo from './photos/Home screen camera small.jpg'
 
 function Home() {
   return (
