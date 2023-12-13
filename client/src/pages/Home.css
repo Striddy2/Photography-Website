@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+/* Top section of the homepage */
 .top-photo {
     background-image: url('./photos/Home screen camera edit.jpg');
     background-repeat: no-repeat;
@@ -18,7 +19,7 @@
 
 /* This applies to the largest heading on the home page */
 .app-header h1 {
-    font-weight: 600;
+    font-weight: 300;
     font-size: 75px;
     text-align: center;
 
@@ -34,15 +35,14 @@
 
 /* This applies to all the headings on the home page */
 .app-header {
-    position: absolute;
-    width: 100vw;
-    height: auto;
+    height: 70vh;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
-    top: 150px;
+    justify-content: center;
+    gap: 20px;
     color: #ffffff;
+    border: solid black;
 }
 
 .second-segment {
