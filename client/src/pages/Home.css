@@ -5,7 +5,6 @@
     background-image: url('./photos/Home screen camera edit.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    border: solid;
     width: 100vw;
     height: 70vh;
 }
@@ -40,9 +39,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     color: #ffffff;
-    border: solid black;
 }
 
 .second-segment {
@@ -50,7 +48,6 @@
     width: 100vw;
     height: 100vh;
     background-color: #1c1c1c;
-    border: 2px solid black;
 }
 
 /*The shortly about me text */
@@ -58,4 +55,18 @@
     margin-top: 2vh;
     text-align: center;
     border: 2px solid black;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-row img {
+    width: 180px;
+    height: 180px;
+    transform: translateY(-85px);
+    border-radius: 100%;
 }
