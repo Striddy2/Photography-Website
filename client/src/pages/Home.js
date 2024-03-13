@@ -19,7 +19,8 @@ function Home() {
           <img src={circle2} alt=""></img>
           <img src={circle3} alt=""></img>
         </div>
-        <h2>Shortly About Me</h2>0
+        <h2>Shortly About Me</h2>
+        <p>Lorem Ipsum</p>
       </body>
     </div>
   );
